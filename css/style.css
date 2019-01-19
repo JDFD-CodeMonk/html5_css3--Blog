@@ -9,3 +9,17 @@ p { margin: 0 0 20px 0; }
 p, li { line-height: 20px; }
 
 #page-header { width: 100%; }
+
+#page_header > nav > ul,
+#page_footer > nav > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#page_header > nav > ul > li,
+#page_footer > nav > ul > li {
+  margin: 0 20px 0 0;
+  padding: 0;
+  display: inline;
+}

@@ -36,3 +36,8 @@ p, li { line-height: 20px; }
   margin-left: 5%;
   width: 35%;
 }
+
+#sidebar {
+  float: left;
+  width: 25%;
+}
